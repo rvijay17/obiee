@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m000001c7-07f3-0000-714b-e31d00000000" name="Dim Products" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/000001c5-07d0-0000-714b-e31d00000000.xml#m000001c5-07d0-0000-714b-e31d00000000">
+<LogicalColumn mdsid="m000001dd-07d6-0000-714b-e31d00000000" name="Attribute 1" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001de-07d6-0000-714b-e31d00000000" name="Attribute 2" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001df-07d6-0000-714b-e31d00000000" name="Brand" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001e0-07d6-0000-714b-e31d00000000" name="Brand Key" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001e1-07d6-0000-714b-e31d00000000" name="Lob" isWriteable="false" descriptorIDRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e2-07d6-0000-714b-e31d00000000">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001e2-07d6-0000-714b-e31d00000000" name="Lob Key" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001e3-07d6-0000-714b-e31d00000000" name="Prod Dsc" isWriteable="false" descriptorIDRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e4-07d6-0000-714b-e31d00000000">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001e4-07d6-0000-714b-e31d00000000" name="Prod Key" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001e5-07d6-0000-714b-e31d00000000" name="Sequence" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001e6-07d6-0000-714b-e31d00000000" name="Type" isWriteable="false" descriptorIDRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e7-07d6-0000-714b-e31d00000000">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001e7-07d6-0000-714b-e31d00000000" name="Type Key" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000008fe-07d6-0000-714b-e31d00000000" name="Prod Dsc (Translated)" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000001-01f4-0000-cb72-17e500000000" name="Expr">
+<ExprText><![CDATA[Lookup(SPARSE   "%1" ,  "%2"  , "%3", VALUEOF(NQ_SESSION.WEBLANGUAGE) ) ]]></ExprText>
+<ExprTextDesc><![CDATA[Lookup(SPARSE   "SAMPLESALES"."Dim Products (Translated)"."PROD_DESC" ,  "SAMPLESALES"."Dim Products"."Prod Dsc"  , "SAMPLESALES"."Dim Products"."Prod Key", VALUEOF(NQ_SESSION.WEBLANGUAGE) ) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-cb72-17e500000000-m000008f4-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000008f1-07f3-0000-714b-e31d00000000.xml#m000008f4-07d6-0000-714b-e31d00000000"/>
+<RefObject refId="m00000001-01f4-0000-cb72-17e500000000-m000001e3-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e3-07d6-0000-714b-e31d00000000"/>
+<RefObject refId="m00000001-01f4-0000-cb72-17e500000000-m000001e4-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e4-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</LogicalColumn>
+<LogicalKey mdsid="m00000239-07d8-0000-714b-e31d00000000" name="SAMP_PRODUCTS_D_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m00000239-07d8-0000-714b-e31d00000000-m000001e4-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e4-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m000001c7-07f3-0000-714b-e31d00000000-m00000298-07f5-0000-714b-e31d00000000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/00000298-07f5-0000-714b-e31d00000000.xml#m00000298-07f5-0000-714b-e31d00000000"/>
+</RefTableSources>
+</LogicalTable>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m00000591-07f5-0000-714b-e31d00000000" name="LTS Time Day" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/0000058c-07f3-0000-714b-e31d00000000.xml#m0000058c-07f3-0000-714b-e31d00000000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-cba3-f87e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Time"."Per Name Year"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-cba3-f87e00000000-m00000596-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/0000058c-07f3-0000-714b-e31d00000000.xml#m00000596-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-272b-e82900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_TIME_DAY_D"."PER_NAME_YEAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-272b-e82900000000-m000000ac-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000074-0bb9-0000-714b-e31d00000000.xml#m000000ac-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-69f5-714b00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Time"."Per Name Week"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-69f5-714b00000000-m000005a1-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/0000058c-07f3-0000-714b-e31d00000000.xml#m000005a1-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-4242-2b6000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_TIME_DAY_D"."PER_NAME_WEEK"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-4242-2b6000000000-m000000ab-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000074-0bb9-0000-714b-e31d00000000.xml#m000000ab-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-85bc-ccee00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Time"."Per Name Half"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-85bc-ccee00000000-m000005a2-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/0000058c-07f3-0000-714b-e31d00000000.xml#m000005a2-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-eff9-d86000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_TIME_DAY_D"."PER_NAME_HALF"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-eff9-d86000000000-m000000a8-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000074-0bb9-0000-714b-e31d00000000.xml#m000000a8-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-3052-76e700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Time"."Per Name Month"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-3052-76e700000000-m000005a3-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/0000058c-07f3-0000-714b-e31d00000000.xml#m000005a3-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-b0ac-1f0300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_TIME_DAY_D"."PER_NAME_MONTH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-b0ac-1f0300000000-m000000a9-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000074-0bb9-0000-714b-e31d00000000.xml#m000000a9-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-b7ae-e7bd00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Time"."Per Name Qtr"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-b7ae-e7bd00000000-m000005a4-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/0000058c-07f3-0000-714b-e31d00000000.xml#m000005a4-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-c039-718600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_TIME_DAY_D"."PER_NAME_QTR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-c039-718600000000-m000000aa-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000074-0bb9-0000-714b-e31d00000000.xml#m000000aa-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-9ce5-154f00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Time"."Calendar Date"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-9ce5-154f00000000-m000005ac-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/0000058c-07f3-0000-714b-e31d00000000.xml#m000005ac-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-7f58-93bc00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_TIME_DAY_D"."CALENDAR_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-7f58-93bc00000000-m0000009f-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000074-0bb9-0000-714b-e31d00000000.xml#m0000009f-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/00000074-0bb9-0000-714b-e31d00000000.xml#m00000074-0bb9-0000-714b-e31d00000000">
+</Link>
+<WhereClause mdsid="m0000000d-01f4-0000-ab69-b41d00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m0000000e-01f4-0000-404e-e8c300000000" name="GroupBy">
+<ExprText><![CDATA[ GROUPBYLEVEL("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ GROUPBYLEVEL("SAMPLESALES"."Time Hierarchy"."Dim Time Detail")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-404e-e8c300000000-m000005c6-07e9-0000-714b-e31d00000000" objectTypeId="2025" objectRef="/oracle/bi/server/base/Dimension/000005c5-07e3-0000-714b-e31d00000000.xml#m000005c6-07e9-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</GroupBy>
+<FragmentContent mdsid="m0000000f-01f4-0000-9cf5-1d9500000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

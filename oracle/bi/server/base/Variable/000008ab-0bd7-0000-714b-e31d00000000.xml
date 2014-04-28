@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m000008ab-0bd7-0000-714b-e31d00000000" name="PREFERRED_CURRENCY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" securityMask="2" isSessionVar="true" initBlockRef="/oracle/bi/server/base/InitBlock/000008ac-0bd9-0000-714b-e31d00000000.xml#m000008ac-0bd9-0000-714b-e31d00000000">
+<Expr mdsid="m00000001-01f4-0000-312a-197600000000" name="Expr">
+<ExprText><![CDATA['gc1']]></ExprText>
+<ExprTextDesc><![CDATA['gc1']]></ExprTextDesc>
+</Expr>
+</Variable>

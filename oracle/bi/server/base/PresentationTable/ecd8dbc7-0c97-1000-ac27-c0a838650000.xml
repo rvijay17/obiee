@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mecd8dbc7-0c97-1000-ac27-c0a838650000" name="Facts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/ecd8dbc5-0c97-1000-ac27-c0a838650000.xml#mecd8dbc5-0c97-1000-ac27-c0a838650000">
+<Alias name="Population#1"/>
+<PresentationColumn mdsid="mecd8dbc3-0c97-1000-ac27-c0a838650000" name="Population" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/eb27341a-0c97-1000-ac27-c0a838650000.xml#meb27341e-0c97-1000-ac27-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

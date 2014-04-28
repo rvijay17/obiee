@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m00000813-07f3-0000-714b-e31d00000000" name="Dim Sales Rep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/000001c5-07d0-0000-714b-e31d00000000.xml#m000001c5-07d0-0000-714b-e31d00000000">
+<LogicalColumn mdsid="m00000822-07d6-0000-714b-e31d00000000" name="Employee ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m00000823-07d6-0000-714b-e31d00000000" name="Employee Name" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m00000824-07d6-0000-714b-e31d00000000" name="Manager ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m00000825-07d6-0000-714b-e31d00000000" name="Office ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m00000841-07d6-0000-714b-e31d00000000" name="Distance" isWriteable="false">
+</LogicalColumn>
+<LogicalKey mdsid="m00000826-07d8-0000-714b-e31d00000000" name="EMP_ID" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m00000826-07d8-0000-714b-e31d00000000-m00000822-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000813-07f3-0000-714b-e31d00000000.xml#m00000822-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m00000813-07f3-0000-714b-e31d00000000-m00000818-07f5-0000-714b-e31d00000000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/00000818-07f5-0000-714b-e31d00000000.xml#m00000818-07f5-0000-714b-e31d00000000"/>
+</RefTableSources>
+</LogicalTable>

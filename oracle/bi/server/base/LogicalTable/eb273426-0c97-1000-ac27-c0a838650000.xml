@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="meb273426-0c97-1000-ac27-c0a838650000" name="Region" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/eb244de0-0c97-1000-ac27-c0a838650000.xml#meb244de0-0c97-1000-ac27-c0a838650000">
+<LogicalColumn mdsid="meb273429-0c97-1000-ac27-c0a838650000" name="State ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="meb27342a-0c97-1000-ac27-c0a838650000" name="State" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="meb4c4843-0c97-1000-ac27-c0a838650000" name="City" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="meca91922-0c97-1000-ac27-c0a838650000" name="City ID" isWriteable="false">
+</LogicalColumn>
+<LogicalKey mdsid="meb27342b-0c97-1000-ac27-c0a838650000" name="ID" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="meb27342b-0c97-1000-ac27-c0a838650000-meca91922-0c97-1000-ac27-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meca91922-0c97-1000-ac27-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="meb273426-0c97-1000-ac27-c0a838650000-meb273428-0c97-1000-ac27-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/eb273428-0c97-1000-ac27-c0a838650000.xml#meb273428-0c97-1000-ac27-c0a838650000"/>
+<RefLogicalTableSource refId="meb273426-0c97-1000-ac27-c0a838650000-meb4c4845-0c97-1000-ac27-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/eb4c4845-0c97-1000-ac27-c0a838650000.xml#meb4c4845-0c97-1000-ac27-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

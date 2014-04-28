@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="m00000525-0fa4-0000-714b-e31d00000000" name="Sample Sales" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" subjectAreaRef="/oracle/bi/server/base/BusinessModel/000001c5-07d0-0000-714b-e31d00000000.xml#m000001c5-07d0-0000-714b-e31d00000000" defaultFactColumnRef="/oracle/bi/server/base/LogicalTable/000001ca-07f3-0000-714b-e31d00000000.xml#m000001fb-07d6-0000-714b-e31d00000000">
+<Alias name="SAMPLESALES"/>
+<RefTables>
+<RefPresentationTable refId="m00000525-0fa4-0000-714b-e31d00000000-m00000526-0fa8-0000-714b-e31d00000000" presentationTableRef="/oracle/bi/server/base/PresentationTable/00000526-0fa8-0000-714b-e31d00000000.xml#m00000526-0fa8-0000-714b-e31d00000000"/>
+<RefPresentationTable refId="m00000525-0fa4-0000-714b-e31d00000000-m00000527-0fa8-0000-714b-e31d00000000" presentationTableRef="/oracle/bi/server/base/PresentationTable/00000527-0fa8-0000-714b-e31d00000000.xml#m00000527-0fa8-0000-714b-e31d00000000"/>
+<RefPresentationTable refId="m00000525-0fa4-0000-714b-e31d00000000-m00000529-0fa8-0000-714b-e31d00000000" presentationTableRef="/oracle/bi/server/base/PresentationTable/00000529-0fa8-0000-714b-e31d00000000.xml#m00000529-0fa8-0000-714b-e31d00000000"/>
+<RefPresentationTable refId="m00000525-0fa4-0000-714b-e31d00000000-m0000052a-0fa8-0000-714b-e31d00000000" presentationTableRef="/oracle/bi/server/base/PresentationTable/0000052a-0fa8-0000-714b-e31d00000000.xml#m0000052a-0fa8-0000-714b-e31d00000000"/>
+<RefPresentationTable refId="m00000525-0fa4-0000-714b-e31d00000000-m00000686-0fa8-0000-714b-e31d00000000" presentationTableRef="/oracle/bi/server/base/PresentationTable/00000686-0fa8-0000-714b-e31d00000000.xml#m00000686-0fa8-0000-714b-e31d00000000"/>
+<RefPresentationTable refId="m00000525-0fa4-0000-714b-e31d00000000-m00000862-0fa8-0000-714b-e31d00000000" presentationTableRef="/oracle/bi/server/base/PresentationTable/00000862-0fa8-0000-714b-e31d00000000.xml#m00000862-0fa8-0000-714b-e31d00000000"/>
+</RefTables>
+</PresentationCatalog>

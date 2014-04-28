@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000862-0fa8-0000-714b-e31d00000000" name="Dim Sales Rep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000525-0fa4-0000-714b-e31d00000000.xml#m00000525-0fa4-0000-714b-e31d00000000">
+<PresentationColumn mdsid="m0000085e-0faa-0000-714b-e31d00000000" name="Employee ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000813-07f3-0000-714b-e31d00000000.xml#m00000822-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000085f-0faa-0000-714b-e31d00000000" name="Employee Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000813-07f3-0000-714b-e31d00000000.xml#m00000823-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000860-0faa-0000-714b-e31d00000000" name="Manager ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000813-07f3-0000-714b-e31d00000000.xml#m00000824-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000861-0faa-0000-714b-e31d00000000" name="Office ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000813-07f3-0000-714b-e31d00000000.xml#m00000825-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000085d-0faa-0000-714b-e31d00000000" name="Distance" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000813-07f3-0000-714b-e31d00000000.xml#m00000841-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m00000862-0fa8-0000-714b-e31d00000000-m00000863-0fbc-0000-714b-e31d00000000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/00000863-0fbc-0000-714b-e31d00000000.xml#m00000863-0fbc-0000-714b-e31d00000000"/>
+</RefHierarchies>
+</PresentationTable>

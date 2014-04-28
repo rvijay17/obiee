@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="meb27341c-0c97-1000-ac27-c0a838650000" name="POP_POPULATION" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/eb27341a-0c97-1000-ac27-c0a838650000.xml#meb27341a-0c97-1000-ac27-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-ee62-318b00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Population"."Population"."CITY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-ee62-318b00000000-meb27341d-0c97-1000-ac27-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/eb27341a-0c97-1000-ac27-c0a838650000.xml#meb27341d-0c97-1000-ac27-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-3c2f-782300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."POP_POPULATION"."CITY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-3c2f-782300000000-meb1c85b7-0c97-1000-ac27-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/eb1c85b6-0c97-1000-ac27-c0a838650000.xml#meb1c85b7-0c97-1000-ac27-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-4398-4ddf00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Population"."Population"."Population"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-4398-4ddf00000000-meb27341e-0c97-1000-ac27-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/eb27341a-0c97-1000-ac27-c0a838650000.xml#meb27341e-0c97-1000-ac27-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-7bba-156f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."POP_POPULATION"."POPULATION"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-7bba-156f00000000-meb1c85b8-0c97-1000-ac27-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/eb1c85b6-0c97-1000-ac27-c0a838650000.xml#meb1c85b8-0c97-1000-ac27-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-0fc8-55aa00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Population"."Population"."STATE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-0fc8-55aa00000000-meb27341f-0c97-1000-ac27-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/eb27341a-0c97-1000-ac27-c0a838650000.xml#meb27341f-0c97-1000-ac27-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-8c6c-1d8700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."POP_POPULATION"."STATE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-8c6c-1d8700000000-meb1c85b9-0c97-1000-ac27-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/eb1c85b6-0c97-1000-ac27-c0a838650000.xml#meb1c85b9-0c97-1000-ac27-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/eb1c85b6-0c97-1000-ac27-c0a838650000.xml#meb1c85b6-0c97-1000-ac27-c0a838650000">
+</Link>
+<WhereClause mdsid="m00000007-01f4-0000-9c15-175600000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000008-01f4-0000-75c7-2e3c00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000009-01f4-0000-1f84-690300000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

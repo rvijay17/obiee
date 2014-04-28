@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="m00000832-07e3-0000-714b-e31d00000000" name="Sales Rep Hierarchy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="true" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/00000832-07e3-0000-714b-e31d00000000.xml#m00000838-07e9-0000-714b-e31d00000000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/000001c5-07d0-0000-714b-e31d00000000.xml#m000001c5-07d0-0000-714b-e31d00000000">
+<LogicalLevel mdsid="m00000838-07e9-0000-714b-e31d00000000" name="Total" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;Total&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="m00000838-07e9-0000-714b-e31d00000000_m00000839-07e9-0000-714b-e31d00000000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000832-07e3-0000-714b-e31d00000000.xml#m00000839-07e9-0000-714b-e31d00000000"/>
+</RefChildLevels>
+</LogicalLevel>
+<LogicalLevel mdsid="m00000839-07e9-0000-714b-e31d00000000" name="Detail" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Detail&apos;">
+<LogicalKey mdsid="m0000083a-07d8-0000-714b-e31d00000000" name="EMP_ID" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m0000083a-07d8-0000-714b-e31d00000000-m00000822-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000813-07f3-0000-714b-e31d00000000.xml#m00000822-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m00000839-07e9-0000-714b-e31d00000000-m00000822-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000813-07f3-0000-714b-e31d00000000.xml#m00000822-07d6-0000-714b-e31d00000000"/>
+<RefLogicalColumn refId="m00000839-07e9-0000-714b-e31d00000000-m00000823-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000813-07f3-0000-714b-e31d00000000.xml#m00000823-07d6-0000-714b-e31d00000000"/>
+<RefLogicalColumn refId="m00000839-07e9-0000-714b-e31d00000000-m00000824-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000813-07f3-0000-714b-e31d00000000.xml#m00000824-07d6-0000-714b-e31d00000000"/>
+<RefLogicalColumn refId="m00000839-07e9-0000-714b-e31d00000000-m00000825-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000813-07f3-0000-714b-e31d00000000.xml#m00000825-07d6-0000-714b-e31d00000000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

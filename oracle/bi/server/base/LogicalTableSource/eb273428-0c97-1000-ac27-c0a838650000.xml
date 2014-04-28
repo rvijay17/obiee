@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="meb273428-0c97-1000-ac27-c0a838650000" name="POP_STATE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meb273426-0c97-1000-ac27-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-9b7d-9f3e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Population"."Region"."State ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-9b7d-9f3e00000000-meb273429-0c97-1000-ac27-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meb273429-0c97-1000-ac27-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-8446-bf2600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."POP_STATE"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-8446-bf2600000000-meb1c85bb-0c97-1000-ac27-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/eb1c85ba-0c97-1000-ac27-c0a838650000.xml#meb1c85bb-0c97-1000-ac27-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-0d2f-6dcb00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Population"."Region"."State"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-0d2f-6dcb00000000-meb27342a-0c97-1000-ac27-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meb27342a-0c97-1000-ac27-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-ecac-f34f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."POP_STATE"."STATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-ecac-f34f00000000-meb1c85bc-0c97-1000-ac27-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/eb1c85ba-0c97-1000-ac27-c0a838650000.xml#meb1c85bc-0c97-1000-ac27-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/eb1c85ba-0c97-1000-ac27-c0a838650000.xml#meb1c85ba-0c97-1000-ac27-c0a838650000">
+</Link>
+<WhereClause mdsid="m00000005-01f4-0000-1305-1c6e00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000006-01f4-0000-ca18-aaed00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000007-01f4-0000-6d8b-26df00000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

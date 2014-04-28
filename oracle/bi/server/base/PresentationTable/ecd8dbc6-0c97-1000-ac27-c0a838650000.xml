@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mecd8dbc6-0c97-1000-ac27-c0a838650000" name="Region" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/ecd8dbc5-0c97-1000-ac27-c0a838650000.xml#mecd8dbc5-0c97-1000-ac27-c0a838650000">
+<PresentationColumn mdsid="mecd8dbbf-0c97-1000-ac27-c0a838650000" name="State" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meb27342a-0c97-1000-ac27-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mecd8dbc0-0c97-1000-ac27-c0a838650000" name="City" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meb4c4843-0c97-1000-ac27-c0a838650000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="mecd8dbc6-0c97-1000-ac27-c0a838650000-mecd8dbc8-0c97-1000-ac27-c0a838650000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/ecd8dbc8-0c97-1000-ac27-c0a838650000.xml#mecd8dbc8-0c97-1000-ac27-c0a838650000"/>
+</RefHierarchies>
+</PresentationTable>

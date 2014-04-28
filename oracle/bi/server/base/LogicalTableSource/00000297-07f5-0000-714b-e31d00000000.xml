@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m00000297-07f5-0000-714b-e31d00000000" name="SAMP_OFFICES_D" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001c6-07f3-0000-714b-e31d00000000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-9db9-0bfd00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Offices"."Company"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-9db9-0bfd00000000-m000001d4-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d4-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-4e37-c17100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_OFFICES_D"."COMPANY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-4e37-c17100000000-m00000076-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/0000006f-0bb9-0000-714b-e31d00000000.xml#m00000076-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-4a4a-6b7700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Offices"."Company Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-4a4a-6b7700000000-m000001d5-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d5-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-aa0a-680e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_OFFICES_D"."COMPANY_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-aa0a-680e00000000-m00000077-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/0000006f-0bb9-0000-714b-e31d00000000.xml#m00000077-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-0f1d-26d900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Offices"."Department"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-0f1d-26d900000000-m000001d6-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d6-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-7849-b47800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_OFFICES_D"."DEPARTMENT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-7849-b47800000000-m00000078-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/0000006f-0bb9-0000-714b-e31d00000000.xml#m00000078-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-524c-2e5d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Offices"."Dept Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-524c-2e5d00000000-m000001d7-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d7-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-a401-809800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_OFFICES_D"."DEPT_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-a401-809800000000-m00000079-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/0000006f-0bb9-0000-714b-e31d00000000.xml#m00000079-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-3aca-ee3200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Offices"."Office Dsc"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-3aca-ee3200000000-m000001d8-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d8-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-6a39-469300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_OFFICES_D"."OFFICE_DSC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-6a39-469300000000-m0000007a-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/0000006f-0bb9-0000-714b-e31d00000000.xml#m0000007a-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-af82-ee0b00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Offices"."Office Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-af82-ee0b00000000-m000001d9-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d9-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-b34b-109a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_OFFICES_D"."OFFICE_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-b34b-109a00000000-m0000007b-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/0000006f-0bb9-0000-714b-e31d00000000.xml#m0000007b-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-7758-799100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Offices"."Org Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-7758-799100000000-m000001da-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001da-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-b5bb-e46400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_OFFICES_D"."ORG_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-b5bb-e46400000000-m0000007d-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/0000006f-0bb9-0000-714b-e31d00000000.xml#m0000007d-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000f-01f4-0000-ae95-320600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Offices"."Organization"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-ae95-320600000000-m000001db-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001db-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000010-01f4-0000-453a-d0eb00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_OFFICES_D"."ORGANIZATION"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-453a-d0eb00000000-m0000007c-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/0000006f-0bb9-0000-714b-e31d00000000.xml#m0000007c-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000011-01f4-0000-928e-068f00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Offices"."Sequence"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-928e-068f00000000-m000001dc-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001dc-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000012-01f4-0000-b9e1-bb7a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_OFFICES_D"."SEQUENCE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-b9e1-bb7a00000000-m0000007e-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/0000006f-0bb9-0000-714b-e31d00000000.xml#m0000007e-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000013-01f4-0000-423e-472800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Offices"."Area Name"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-423e-472800000000-m00000925-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m00000925-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000014-01f4-0000-9f5b-0bbf00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_OFFICES_D"."AREA_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-9f5b-0bbf00000000-m00000922-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/0000006f-0bb9-0000-714b-e31d00000000.xml#m00000922-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/0000006f-0bb9-0000-714b-e31d00000000.xml#m0000006f-0bb9-0000-714b-e31d00000000">
+</Link>
+<WhereClause mdsid="m00000015-01f4-0000-b7d1-782200000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000016-01f4-0000-888c-fc4b00000000" name="GroupBy">
+<ExprText><![CDATA[ GROUPBYLEVEL("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ GROUPBYLEVEL("SAMPLESALES"."Office Hierarchy"."Office Detail")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000016-01f4-0000-888c-fc4b00000000-m000006df-07e9-0000-714b-e31d00000000" objectTypeId="2025" objectRef="/oracle/bi/server/base/Dimension/000006d8-07e3-0000-714b-e31d00000000.xml#m000006df-07e9-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</GroupBy>
+<FragmentContent mdsid="m00000017-01f4-0000-77ab-b20b00000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

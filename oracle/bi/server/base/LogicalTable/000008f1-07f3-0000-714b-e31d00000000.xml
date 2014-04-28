@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m000008f1-07f3-0000-714b-e31d00000000" name="Dim Products (Translated)" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isLookupTable="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/000001c5-07d0-0000-714b-e31d00000000.xml#m000001c5-07d0-0000-714b-e31d00000000">
+<LogicalColumn mdsid="m000008f5-07d6-0000-714b-e31d00000000" name="PROD_KEY" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000008f3-07d6-0000-714b-e31d00000000" name="LANG_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000008f4-07d6-0000-714b-e31d00000000" name="PROD_DESC" isWriteable="false">
+</LogicalColumn>
+<LogicalKey mdsid="m000008f6-07d8-0000-714b-e31d00000000" name="PK_PROD_TRANS1" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m000008f6-07d8-0000-714b-e31d00000000-m000008f5-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000008f1-07f3-0000-714b-e31d00000000.xml#m000008f5-07d6-0000-714b-e31d00000000"/>
+<RefLogicalColumn refId="m000008f6-07d8-0000-714b-e31d00000000-m000008f3-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000008f1-07f3-0000-714b-e31d00000000.xml#m000008f3-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m000008f1-07f3-0000-714b-e31d00000000-m000008fb-07f5-0000-714b-e31d00000000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/000008fb-07f5-0000-714b-e31d00000000.xml#m000008fb-07f5-0000-714b-e31d00000000"/>
+</RefTableSources>
+</LogicalTable>

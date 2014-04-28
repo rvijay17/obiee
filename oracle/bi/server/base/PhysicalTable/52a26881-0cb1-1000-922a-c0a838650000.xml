@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m52a26881-0cb1-1000-922a-c0a838650000" name="US_CRIME_YEAR_2K_ONWARDS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="select" isCacheable="false" maxConn="0" containerRef="/oracle/bi/server/base/Schema/0000006e-0bd3-0000-714b-e31d00000000.xml#m0000006e-0bd3-0000-714b-e31d00000000">
+<Description><![CDATA[Year 2000 to Year 2010]]></Description>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT '2010' YEAR FROM dual
+UNION
+SELECT '2009' Year from dual
+UNION
+SELECT '2008' Year from dual
+UNION
+SELECT '2007' Year from dual
+UNION
+SELECT '2006' Year from dual
+UNION
+SELECT '2005' Year from dual
+UNION
+SELECT '2004' Year from dual
+UNION
+SELECT '2003' Year from dual
+UNION
+SELECT '2002' Year from dual
+UNION
+SELECT '2001' Year from dual
+UNION
+SELECT '2000' Year from dual]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m52acefd0-0cb1-1000-922a-c0a838650000" name="Year" dataType="INT" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m52dcd970-0cb1-1000-922a-c0a838650000" name="US_CRIME_YEAR_2K_ONWARDS_Key">
+<RefColumns>
+<RefColumn refId="m52dcd970-0cb1-1000-922a-c0a838650000-m52acefd0-0cb1-1000-922a-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/52a26881-0cb1-1000-922a-c0a838650000.xml#m52acefd0-0cb1-1000-922a-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

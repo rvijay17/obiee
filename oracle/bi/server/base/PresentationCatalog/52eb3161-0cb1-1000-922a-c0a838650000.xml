@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="m52eb3161-0cb1-1000-922a-c0a838650000" name="Densification - US Crime By State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" subjectAreaRef="/oracle/bi/server/base/BusinessModel/595a8f70-0cae-1000-b478-c0a838650000.xml#m595a8f70-0cae-1000-b478-c0a838650000">
+<RefTables>
+<RefPresentationTable refId="m52eb3161-0cb1-1000-922a-c0a838650000-m52eb3162-0cb1-1000-922a-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/52eb3162-0cb1-1000-922a-c0a838650000.xml#m52eb3162-0cb1-1000-922a-c0a838650000"/>
+<RefPresentationTable refId="m52eb3161-0cb1-1000-922a-c0a838650000-m52eb3163-0cb1-1000-922a-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/52eb3163-0cb1-1000-922a-c0a838650000.xml#m52eb3163-0cb1-1000-922a-c0a838650000"/>
+</RefTables>
+</PresentationCatalog>

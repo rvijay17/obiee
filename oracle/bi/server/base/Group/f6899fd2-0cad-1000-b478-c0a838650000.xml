@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Group mdsid="mf6899fd2-0cad-1000-b478-c0a838650000" name="BIConsumerGroup2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" guid="BIConsumerGroup2" displayName="BI Consumer Role for Group 2">
+<Description><![CDATA[Made a role for Group 2 users so as to assign them only a set of reports in Catalog Manager]]></Description>
+</Group>

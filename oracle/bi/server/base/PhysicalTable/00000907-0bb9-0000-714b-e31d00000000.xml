@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m00000907-0bb9-0000-714b-e31d00000000" name="FactCrossJoin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="select" isCacheable="false" maxConn="0" containerRef="/oracle/bi/server/base/Schema/0000006e-0bd3-0000-714b-e31d00000000.xml#m0000006e-0bd3-0000-714b-e31d00000000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select 1 Preserve from dual]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m0000090a-0bbb-0000-714b-e31d00000000" name="Preserve" dataType="DOUBLE" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

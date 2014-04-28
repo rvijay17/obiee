@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000527-0fa8-0000-714b-e31d00000000" name="Dim Products" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000525-0fa4-0000-714b-e31d00000000.xml#m00000525-0fa4-0000-714b-e31d00000000">
+<PresentationColumn mdsid="m000004d5-0faa-0000-714b-e31d00000000" name="Brand" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001df-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004d6-0faa-0000-714b-e31d00000000" name="Brand Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e0-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004d7-0faa-0000-714b-e31d00000000" name="Lob" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e1-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004d8-0faa-0000-714b-e31d00000000" name="Lob Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e2-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004d9-0faa-0000-714b-e31d00000000" name="Prod Dsc" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e3-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000901-0faa-0000-714b-e31d00000000" name="Prod Dsc (Translated)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000008fe-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004da-0faa-0000-714b-e31d00000000" name="Prod Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e4-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004dc-0faa-0000-714b-e31d00000000" name="Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e6-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004dd-0faa-0000-714b-e31d00000000" name="Type Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e7-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m00000527-0fa8-0000-714b-e31d00000000-m00000583-0fbc-0000-714b-e31d00000000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/00000583-0fbc-0000-714b-e31d00000000.xml#m00000583-0fbc-0000-714b-e31d00000000"/>
+</RefHierarchies>
+</PresentationTable>

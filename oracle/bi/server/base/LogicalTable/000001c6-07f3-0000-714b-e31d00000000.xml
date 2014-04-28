@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m000001c6-07f3-0000-714b-e31d00000000" name="Dim Offices" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/000001c5-07d0-0000-714b-e31d00000000.xml#m000001c5-07d0-0000-714b-e31d00000000">
+<LogicalColumn mdsid="m000001d4-07d6-0000-714b-e31d00000000" name="Company" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001d5-07d6-0000-714b-e31d00000000" name="Company Key" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001d6-07d6-0000-714b-e31d00000000" name="Department" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001d7-07d6-0000-714b-e31d00000000" name="Dept Key" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001d8-07d6-0000-714b-e31d00000000" name="Office Dsc" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001d9-07d6-0000-714b-e31d00000000" name="Office Key" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001da-07d6-0000-714b-e31d00000000" name="Org Key" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001db-07d6-0000-714b-e31d00000000" name="Organization" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m000001dc-07d6-0000-714b-e31d00000000" name="Sequence" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m00000925-07d6-0000-714b-e31d00000000" name="Area Name" isWriteable="false">
+</LogicalColumn>
+<LogicalKey mdsid="m00000238-07d8-0000-714b-e31d00000000" name="SAMP_OFFICES_D_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m00000238-07d8-0000-714b-e31d00000000-m000001d9-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d9-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m000001c6-07f3-0000-714b-e31d00000000-m00000297-07f5-0000-714b-e31d00000000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/00000297-07f5-0000-714b-e31d00000000.xml#m00000297-07f5-0000-714b-e31d00000000"/>
+</RefTableSources>
+</LogicalTable>

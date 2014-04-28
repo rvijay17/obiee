@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m000008c7-0bd9-0000-714b-e31d00000000" name="Init Block Translations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" isRowWiseInit="true" connectionPoolRef="/oracle/bi/server/base/ConnectionPool/8b5286c0-0c92-1000-806e-c0a838650000.xml#m8b5286c0-0c92-1000-806e-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select MSG_NUM, MSG_TEXT from TRANSLATIONS where MSG_LANG_ID = 'VALUEOF(NQ_SESSION.WEBLANGUAGE)']]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m000008c7-0bd9-0000-714b-e31d00000000-m000008c6-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/000008c6-0bd7-0000-714b-e31d00000000.xml#m000008c6-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select MSG_NUM, MSG_TEXT from TRANSLATIONS where MSG_LANG_ID = 'VALUEOF(NQ_SESSION.WEBLANGUAGE)']]></InitString>
+</InitBlock>

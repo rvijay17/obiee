@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPrivilege mdsid="m00000872-05dc-0000-714b-e31d00000000" name="ObjPriv_1500:18161355661677" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="read" privilegePackageRef="/oracle/bi/server/base/PrivilegePackage/00000870-1071-0000-714b-e31d00000000.xml#m00000870-1071-0000-714b-e31d00000000">
+<RefObjects>
+<RefObject refId="m00000872-05dc-0000-714b-e31d00000000-m000004f1-0faa-0000-714b-e31d00000000" objectTypeId="4010" objectRef="/oracle/bi/server/base/PresentationTable/0000052a-0fa8-0000-714b-e31d00000000.xml#m000004f1-0faa-0000-714b-e31d00000000"/>
+<RefObject refId="m00000872-05dc-0000-714b-e31d00000000-m000004f2-0faa-0000-714b-e31d00000000" objectTypeId="4010" objectRef="/oracle/bi/server/base/PresentationTable/0000052a-0fa8-0000-714b-e31d00000000.xml#m000004f2-0faa-0000-714b-e31d00000000"/>
+</RefObjects>
+</ObjectPrivilege>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000686-0fa8-0000-714b-e31d00000000" name="Dim Time" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" dispName="VALUEOF(NQ_SESSION.CN_Sample_Sales_Dim_Time)" hasDispName="true" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000525-0fa4-0000-714b-e31d00000000.xml#m00000525-0fa4-0000-714b-e31d00000000">
+<PresentationColumn mdsid="m00000680-0faa-0000-714b-e31d00000000" name="Per Name Year" dispName="VALUEOF(NQ_SESSION.CN_Sample_Sales_Dim_Time_Per_Name_Year)" hasDispName="true" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/0000058c-07f3-0000-714b-e31d00000000.xml#m00000596-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000681-0faa-0000-714b-e31d00000000" name="Per Name Week" dispName="VALUEOF(NQ_SESSION.CN_Sample_Sales_Dim_Time_Per_Name_Week)" hasDispName="true" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/0000058c-07f3-0000-714b-e31d00000000.xml#m000005a1-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000682-0faa-0000-714b-e31d00000000" name="Per Name Half" dispName="VALUEOF(NQ_SESSION.CN_Sample_Sales_Dim_Time_Per_Name_Half)" hasDispName="true" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/0000058c-07f3-0000-714b-e31d00000000.xml#m000005a2-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000683-0faa-0000-714b-e31d00000000" name="Per Name Month" dispName="VALUEOF(NQ_SESSION.CN_Sample_Sales_Dim_Time_Per_Name_Month)" hasDispName="true" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/0000058c-07f3-0000-714b-e31d00000000.xml#m000005a3-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000684-0faa-0000-714b-e31d00000000" name="Per Name Qtr" dispName="VALUEOF(NQ_SESSION.CN_Sample_Sales_Dim_Time_Per_Name_Qtr)" hasDispName="true" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/0000058c-07f3-0000-714b-e31d00000000.xml#m000005a4-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000685-0faa-0000-714b-e31d00000000" name="Calendar Date" dispName="VALUEOF(NQ_SESSION.CN_Sample_Sales_Dim_Time_Calendar_Date)" hasDispName="true" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/0000058c-07f3-0000-714b-e31d00000000.xml#m000005ac-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m00000686-0fa8-0000-714b-e31d00000000-m000006b8-0fbc-0000-714b-e31d00000000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/000006b8-0fbc-0000-714b-e31d00000000.xml#m000006b8-0fbc-0000-714b-e31d00000000"/>
+</RefHierarchies>
+</PresentationTable>

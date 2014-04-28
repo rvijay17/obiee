@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="mecd8dbc5-0c97-1000-ac27-c0a838650000" name="Population" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" subjectAreaRef="/oracle/bi/server/base/BusinessModel/eb244de0-0c97-1000-ac27-c0a838650000.xml#meb244de0-0c97-1000-ac27-c0a838650000">
+<RefTables>
+<RefPresentationTable refId="mecd8dbc5-0c97-1000-ac27-c0a838650000-mecd8dbc7-0c97-1000-ac27-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/ecd8dbc7-0c97-1000-ac27-c0a838650000.xml#mecd8dbc7-0c97-1000-ac27-c0a838650000"/>
+<RefPresentationTable refId="mecd8dbc5-0c97-1000-ac27-c0a838650000-mecd8dbc6-0c97-1000-ac27-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/ecd8dbc6-0c97-1000-ac27-c0a838650000.xml#mecd8dbc6-0c97-1000-ac27-c0a838650000"/>
+</RefTables>
+</PresentationCatalog>

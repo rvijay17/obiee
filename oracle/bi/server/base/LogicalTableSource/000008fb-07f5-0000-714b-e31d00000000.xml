@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m000008fb-07f5-0000-714b-e31d00000000" name="SAMP_PRODUCTS_D_TRANSLATION" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/000008f1-07f3-0000-714b-e31d00000000.xml#m000008f1-07f3-0000-714b-e31d00000000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-fe7d-4acb00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Products (Translated)"."LANG_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-fe7d-4acb00000000-m000008f3-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000008f1-07f3-0000-714b-e31d00000000.xml#m000008f3-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-1071-33da00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_PRODUCTS_D_TRANSLATION"."LANG_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-1071-33da00000000-m000008cd-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/000008cc-0bb9-0000-714b-e31d00000000.xml#m000008cd-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-4046-edb100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Products (Translated)"."PROD_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-4046-edb100000000-m000008f4-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000008f1-07f3-0000-714b-e31d00000000.xml#m000008f4-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-08ea-641000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_PRODUCTS_D_TRANSLATION"."PROD_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-08ea-641000000000-m000008ce-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/000008cc-0bb9-0000-714b-e31d00000000.xml#m000008ce-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-aea0-0c9000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SAMPLESALES"."Dim Products (Translated)"."PROD_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-aea0-0c9000000000-m000008f5-07d6-0000-714b-e31d00000000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/000008f1-07f3-0000-714b-e31d00000000.xml#m000008f5-07d6-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-4c37-c1e900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."SAMP_PRODUCTS_D_TRANSLATION"."PROD_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-4c37-c1e900000000-m000008cf-0bbb-0000-714b-e31d00000000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/000008cc-0bb9-0000-714b-e31d00000000.xml#m000008cf-0bbb-0000-714b-e31d00000000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/000008cc-0bb9-0000-714b-e31d00000000.xml#m000008cc-0bb9-0000-714b-e31d00000000">
+</Link>
+<WhereClause mdsid="m00000007-01f4-0000-71fb-106500000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000008-01f4-0000-b82c-2d2a00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000009-01f4-0000-25ef-d84700000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

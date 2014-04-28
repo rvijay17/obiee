@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m000008bb-0bb9-0000-714b-e31d00000000" name="TRANSLATIONS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/0000006e-0bd3-0000-714b-e31d00000000.xml#m0000006e-0bd3-0000-714b-e31d00000000">
+<PhysicalColumn mdsid="m000008bc-0bbb-0000-714b-e31d00000000" name="MSG_LANG_ID" dataType="VARCHAR" precision="2" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000008bd-0bbb-0000-714b-e31d00000000" name="MSG_NUM" dataType="VARCHAR" precision="50" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000008be-0bbb-0000-714b-e31d00000000" name="MSG_TEXT" dataType="VARCHAR" precision="25" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000008bf-0bbb-0000-714b-e31d00000000" name="MSG_TYPE" dataType="VARCHAR" precision="50" extName="samplesales" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

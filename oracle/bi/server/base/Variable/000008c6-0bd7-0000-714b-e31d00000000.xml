@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m000008c6-0bd7-0000-714b-e31d00000000" name="svTranslations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" initBlockRef="/oracle/bi/server/base/InitBlock/000008c7-0bd9-0000-714b-e31d00000000.xml#m000008c7-0bd9-0000-714b-e31d00000000">
+<Expr mdsid="m00000001-01f4-0000-ab17-272700000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</Variable>

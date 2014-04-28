@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m00000070-0bb9-0000-714b-e31d00000000" name="SAMP_PRODUCTS_D" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/0000006e-0bd3-0000-714b-e31d00000000.xml#m0000006e-0bd3-0000-714b-e31d00000000">
+<PhysicalColumn mdsid="m0000007f-0bbb-0000-714b-e31d00000000" name="ATTRIBUTE_1" dataType="VARCHAR" precision="7" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000080-0bbb-0000-714b-e31d00000000" name="ATTRIBUTE_2" dataType="VARCHAR" precision="6" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000081-0bbb-0000-714b-e31d00000000" name="BRAND" dataType="VARCHAR" precision="8" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000082-0bbb-0000-714b-e31d00000000" name="BRAND_KEY" dataType="DOUBLE" precision="15" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000083-0bbb-0000-714b-e31d00000000" name="LOB" dataType="VARCHAR" precision="13" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000084-0bbb-0000-714b-e31d00000000" name="LOB_KEY" dataType="DOUBLE" precision="15" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000085-0bbb-0000-714b-e31d00000000" name="PROD_DSC" dataType="VARCHAR" precision="26" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000086-0bbb-0000-714b-e31d00000000" name="PROD_KEY" dataType="DOUBLE" precision="15" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000087-0bbb-0000-714b-e31d00000000" name="SEQUENCE" dataType="DOUBLE" precision="15" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000088-0bbb-0000-714b-e31d00000000" name="TYPE" dataType="VARCHAR" precision="12" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000089-0bbb-0000-714b-e31d00000000" name="TYPE_KEY" dataType="DOUBLE" precision="15" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m000000d6-0bc0-0000-714b-e31d00000000" name="SAMP_PRODUCTS_D_Key">
+<RefColumns>
+<RefColumn refId="m000000d6-0bc0-0000-714b-e31d00000000-m00000086-0bbb-0000-714b-e31d00000000" columnRef="/oracle/bi/server/base/PhysicalTable/00000070-0bb9-0000-714b-e31d00000000.xml#m00000086-0bbb-0000-714b-e31d00000000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

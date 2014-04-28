@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="meb27341a-0c97-1000-ac27-c0a838650000" name="Population" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/eb244de0-0c97-1000-ac27-c0a838650000.xml#meb244de0-0c97-1000-ac27-c0a838650000">
+<LogicalColumn mdsid="meb27341d-0c97-1000-ac27-c0a838650000" name="CITY_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="meb27341e-0c97-1000-ac27-c0a838650000" name="Population" isWriteable="false">
+<MeasureDefn mdsid="meb2e11e0-0c97-1000-ac27-c0a838650000" name="Measure" isCommutative="false">
+<AggrRule mdsid="mecdf4450-0c97-1000-ac27-c0a838650000" name="AggRule_2050:23461384665375" isDefault="true">
+<Expr mdsid="m00000001-01f4-0000-6cb0-e2d300000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("Population"."Population"."Population")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-6cb0-e2d300000000-meb27341e-0c97-1000-ac27-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/eb27341a-0c97-1000-ac27-c0a838650000.xml#meb27341e-0c97-1000-ac27-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="meb27341f-0c97-1000-ac27-c0a838650000" name="STATE_ID" isWriteable="false">
+</LogicalColumn>
+<RefTableSources>
+<RefLogicalTableSource refId="meb27341a-0c97-1000-ac27-c0a838650000-meb27341c-0c97-1000-ac27-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/eb27341c-0c97-1000-ac27-c0a838650000.xml#meb27341c-0c97-1000-ac27-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

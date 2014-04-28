@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m5958bab0-0cae-1000-b478-c0a838650000" name="US_CRIME_BY_STATE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/0000006e-0bd3-0000-714b-e31d00000000.xml#m0000006e-0bd3-0000-714b-e31d00000000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[US_CRIME_BY_STATE]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m5958bab1-0cae-1000-b478-c0a838650000" name="CRIME" dataType="VARCHAR" precision="50" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5958bab2-0cae-1000-b478-c0a838650000" name="CRIME_COUNT" dataType="DOUBLE" precision="22" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5958bab3-0cae-1000-b478-c0a838650000" name="STATE" dataType="VARCHAR" precision="20" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5958bab4-0cae-1000-b478-c0a838650000" name="TYPE_OF_CRIME" dataType="VARCHAR" precision="50" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5958bab5-0cae-1000-b478-c0a838650000" name="YEAR_NUM" dataType="DOUBLE" precision="22" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m85be6410-0cae-1000-ba9e-c0a838650000" name="STATE_ID" dataType="INT" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m596b7f60-0cae-1000-b478-c0a838650000" name="PK_US_CRIME_BY_STATE">
+<RefColumns>
+<RefColumn refId="m596b7f60-0cae-1000-b478-c0a838650000-m5958bab1-0cae-1000-b478-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/5958bab0-0cae-1000-b478-c0a838650000.xml#m5958bab1-0cae-1000-b478-c0a838650000"/>
+<RefColumn refId="m596b7f60-0cae-1000-b478-c0a838650000-m5958bab4-0cae-1000-b478-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/5958bab0-0cae-1000-b478-c0a838650000.xml#m5958bab4-0cae-1000-b478-c0a838650000"/>
+<RefColumn refId="m596b7f60-0cae-1000-b478-c0a838650000-m5958bab5-0cae-1000-b478-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/5958bab0-0cae-1000-b478-c0a838650000.xml#m5958bab5-0cae-1000-b478-c0a838650000"/>
+<RefColumn refId="m596b7f60-0cae-1000-b478-c0a838650000-m85be6410-0cae-1000-ba9e-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/5958bab0-0cae-1000-b478-c0a838650000.xml#m85be6410-0cae-1000-ba9e-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+<PhysicalForeignKey mdsid="m5b30af00-0cae-1000-b478-c0a838650000" name="US_CRIME_BY_STATE_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/59cb2b90-0cae-1000-b478-c0a838650000.xml#m5abd53c0-0cae-1000-b478-c0a838650000">
+<RefColumns>
+<RefColumn refId="m5b30af00-0cae-1000-b478-c0a838650000-m5958bab5-0cae-1000-b478-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/5958bab0-0cae-1000-b478-c0a838650000.xml#m5958bab5-0cae-1000-b478-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m52d9cc30-0cb1-1000-922a-c0a838650000" name="US_CRIME_BY_STATE_Foreign Key#1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/52a26881-0cb1-1000-922a-c0a838650000.xml#m52dcd970-0cb1-1000-922a-c0a838650000">
+<RefColumns>
+<RefColumn refId="m52d9cc30-0cb1-1000-922a-c0a838650000-m5958bab5-0cae-1000-b478-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/5958bab0-0cae-1000-b478-c0a838650000.xml#m5958bab5-0cae-1000-b478-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

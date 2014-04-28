@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m52e0f830-0cb1-1000-922a-c0a838650000" name="US_CRIME_YEAR_2K_ONWARDS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/595a8f70-0cae-1000-b478-c0a838650000.xml#m595a8f70-0cae-1000-b478-c0a838650000">
+<LogicalColumn mdsid="m52e0f833-0cb1-1000-922a-c0a838650000" name="Year" isWriteable="false">
+</LogicalColumn>
+<LogicalKey mdsid="m52e0f834-0cb1-1000-922a-c0a838650000" name="US_CRIME_YEAR_2K_ONWARDS_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m52e0f834-0cb1-1000-922a-c0a838650000-m52e0f833-0cb1-1000-922a-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/52e0f830-0cb1-1000-922a-c0a838650000.xml#m52e0f833-0cb1-1000-922a-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m52e0f830-0cb1-1000-922a-c0a838650000-m52e0f832-0cb1-1000-922a-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/52e0f832-0cb1-1000-922a-c0a838650000.xml#m52e0f832-0cb1-1000-922a-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

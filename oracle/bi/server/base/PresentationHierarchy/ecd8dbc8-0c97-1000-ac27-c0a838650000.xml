@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="mecd8dbc8-0c97-1000-ac27-c0a838650000" name="RegionDim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/ecd8dbc6-0c97-1000-ac27-c0a838650000.xml#mecd8dbc6-0c97-1000-ac27-c0a838650000" logicalDimensionRef="/oracle/bi/server/base/Dimension/ec9dce80-0c97-1000-ac27-c0a838650000.xml#mec9dce80-0c97-1000-ac27-c0a838650000">
+<PresentationLevel mdsid="mecd8dbc9-0c97-1000-ac27-c0a838650000" name="Grand Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/ecd8dbc8-0c97-1000-ac27-c0a838650000.xml#mecd8dbc8-0c97-1000-ac27-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/ec9dce80-0c97-1000-ac27-c0a838650000.xml#meca06690-0c97-1000-ac27-c0a838650000">
+</PresentationLevel>
+<PresentationLevel mdsid="mecd8dbca-0c97-1000-ac27-c0a838650000" name="State" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/ecd8dbc8-0c97-1000-ac27-c0a838650000.xml#mecd8dbc8-0c97-1000-ac27-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/ec9dce80-0c97-1000-ac27-c0a838650000.xml#meca45e30-0c97-1000-ac27-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mecd8dbca-0c97-1000-ac27-c0a838650000-mecd8dbbf-0c97-1000-ac27-c0a838650000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/ecd8dbc6-0c97-1000-ac27-c0a838650000.xml#mecd8dbbf-0c97-1000-ac27-c0a838650000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="mecd8dbcb-0c97-1000-ac27-c0a838650000" name="City" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/ecd8dbc8-0c97-1000-ac27-c0a838650000.xml#mecd8dbc8-0c97-1000-ac27-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/ec9dce80-0c97-1000-ac27-c0a838650000.xml#mecb5c350-0c97-1000-ac27-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mecd8dbcb-0c97-1000-ac27-c0a838650000-mecd8dbc0-0c97-1000-ac27-c0a838650000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/ecd8dbc6-0c97-1000-ac27-c0a838650000.xml#mecd8dbc0-0c97-1000-ac27-c0a838650000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

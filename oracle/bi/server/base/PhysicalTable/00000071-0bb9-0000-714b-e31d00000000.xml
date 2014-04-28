@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m00000071-0bb9-0000-714b-e31d00000000" name="SAMP_REVENUE_A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="602.0" lastUpdated="2013-10-25 15:59:59" maxConn="0" containerRef="/oracle/bi/server/base/Schema/0000006e-0bd3-0000-714b-e31d00000000.xml#m0000006e-0bd3-0000-714b-e31d00000000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SAMP_REVENUE_A]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m0000008a-0bbb-0000-714b-e31d00000000" name="BILL_MTH_KEY" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000008b-0bbb-0000-714b-e31d00000000" name="DISCNT_VALUE" dataType="DOUBLE" scale="2" precision="7" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000008c-0bbb-0000-714b-e31d00000000" name="PROD_KEY" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000008d-0bbb-0000-714b-e31d00000000" name="REVENUE" dataType="DOUBLE" scale="2" precision="8" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000008e-0bbb-0000-714b-e31d00000000" name="UNITS" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="m000000d8-0bbe-0000-714b-e31d00000000" name="SAMP_REVENUE_A_FKey" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000075-0bb9-0000-714b-e31d00000000.xml#m000000d7-0bc0-0000-714b-e31d00000000">
+<RefColumns>
+<RefColumn refId="m000000d8-0bbe-0000-714b-e31d00000000-m0000008a-0bbb-0000-714b-e31d00000000" columnRef="/oracle/bi/server/base/PhysicalTable/00000071-0bb9-0000-714b-e31d00000000.xml#m0000008a-0bbb-0000-714b-e31d00000000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m000000d9-0bbe-0000-714b-e31d00000000" name="SAMP_REVENUE_A_FKey#1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000070-0bb9-0000-714b-e31d00000000.xml#m000000d6-0bc0-0000-714b-e31d00000000">
+<RefColumns>
+<RefColumn refId="m000000d9-0bbe-0000-714b-e31d00000000-m0000008c-0bbb-0000-714b-e31d00000000" columnRef="/oracle/bi/server/base/PhysicalTable/00000071-0bb9-0000-714b-e31d00000000.xml#m0000008c-0bbb-0000-714b-e31d00000000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

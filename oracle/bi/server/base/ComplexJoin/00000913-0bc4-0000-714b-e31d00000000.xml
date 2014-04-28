@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ComplexJoin mdsid="m00000913-0bc4-0000-714b-e31d00000000" name="Complex Join#1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" cardinality="ONE TO ONE" table1Ref="/oracle/bi/server/base/PhysicalTable/00000907-0bb9-0000-714b-e31d00000000.xml#m00000907-0bb9-0000-714b-e31d00000000" table2Ref="/oracle/bi/server/base/PhysicalTable/00000070-0bb9-0000-714b-e31d00000000.xml#m00000070-0bb9-0000-714b-e31d00000000">
+<Expr mdsid="m00000001-01f4-0000-cc4c-a8a300000000" name="Expr">
+<ExprText><![CDATA[1=1]]></ExprText>
+<ExprTextDesc><![CDATA[1=1]]></ExprTextDesc>
+</Expr>
+</ComplexJoin>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m52e0f822-0cb1-1000-922a-c0a838650000" name="US_CRIME_BY_STATE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f820-0cb1-1000-922a-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-5a7b-a8fc00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Densification - US Crime By State"."US_CRIME_BY_STATE"."TYPE_OF_CRIME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-5a7b-a8fc00000000-m52e0f827-0cb1-1000-922a-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f827-0cb1-1000-922a-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-1c1c-235d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."US_CRIME_BY_STATE"."TYPE_OF_CRIME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-1c1c-235d00000000-m5958bab4-0cae-1000-b478-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5958bab0-0cae-1000-b478-c0a838650000.xml#m5958bab4-0cae-1000-b478-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-4f00-9e3800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Densification - US Crime By State"."US_CRIME_BY_STATE"."YEAR_NUM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-4f00-9e3800000000-m52e0f828-0cb1-1000-922a-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f828-0cb1-1000-922a-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-9191-536200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."US_CRIME_BY_STATE"."YEAR_NUM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-9191-536200000000-m5958bab5-0cae-1000-b478-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5958bab0-0cae-1000-b478-c0a838650000.xml#m5958bab5-0cae-1000-b478-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-2032-606900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Densification - US Crime By State"."US_CRIME_BY_STATE"."CRIME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-2032-606900000000-m52e0f823-0cb1-1000-922a-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f823-0cb1-1000-922a-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-a52f-e1e000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."US_CRIME_BY_STATE"."CRIME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-a52f-e1e000000000-m5958bab1-0cae-1000-b478-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5958bab0-0cae-1000-b478-c0a838650000.xml#m5958bab1-0cae-1000-b478-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-8de2-5c7b00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Densification - US Crime By State"."US_CRIME_BY_STATE"."CRIME_COUNT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-8de2-5c7b00000000-m52e0f824-0cb1-1000-922a-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f824-0cb1-1000-922a-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-152a-487e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."US_CRIME_BY_STATE"."CRIME_COUNT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-152a-487e00000000-m5958bab2-0cae-1000-b478-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5958bab0-0cae-1000-b478-c0a838650000.xml#m5958bab2-0cae-1000-b478-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-f102-3df200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Densification - US Crime By State"."US_CRIME_BY_STATE"."STATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-f102-3df200000000-m52e0f825-0cb1-1000-922a-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f825-0cb1-1000-922a-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-cee8-8e5c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."US_CRIME_BY_STATE"."STATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-cee8-8e5c00000000-m5958bab3-0cae-1000-b478-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5958bab0-0cae-1000-b478-c0a838650000.xml#m5958bab3-0cae-1000-b478-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-89b1-8f4600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Densification - US Crime By State"."US_CRIME_BY_STATE"."STATE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-89b1-8f4600000000-m52e0f826-0cb1-1000-922a-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f826-0cb1-1000-922a-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-06b8-a9ff00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["xe".""."SAMPLESALES"."US_CRIME_BY_STATE"."STATE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-06b8-a9ff00000000-m85be6410-0cae-1000-ba9e-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5958bab0-0cae-1000-b478-c0a838650000.xml#m85be6410-0cae-1000-ba9e-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/5958bab0-0cae-1000-b478-c0a838650000.xml#m5958bab0-0cae-1000-b478-c0a838650000">
+</Link>
+<WhereClause mdsid="m0000000d-01f4-0000-da0d-82ca00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m0000000e-01f4-0000-1bbb-261d00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m0000000f-01f4-0000-e8d1-32b600000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

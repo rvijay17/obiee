@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m0000006f-0bb9-0000-714b-e31d00000000" name="SAMP_OFFICES_D" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="20.0" lastUpdated="2013-10-21 23:01:46" maxConn="0" containerRef="/oracle/bi/server/base/Schema/0000006e-0bd3-0000-714b-e31d00000000.xml#m0000006e-0bd3-0000-714b-e31d00000000">
+<PhysicalColumn mdsid="m00000076-0bbb-0000-714b-e31d00000000" name="COMPANY" dataType="VARCHAR" precision="14" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000077-0bbb-0000-714b-e31d00000000" name="COMPANY_KEY" dataType="DOUBLE" precision="15" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000078-0bbb-0000-714b-e31d00000000" name="DEPARTMENT" dataType="VARCHAR" precision="25" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000079-0bbb-0000-714b-e31d00000000" name="DEPT_KEY" dataType="DOUBLE" precision="15" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000007a-0bbb-0000-714b-e31d00000000" name="OFFICE_DSC" dataType="VARCHAR" precision="17" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000007b-0bbb-0000-714b-e31d00000000" name="OFFICE_KEY" dataType="DOUBLE" precision="15" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000007c-0bbb-0000-714b-e31d00000000" name="ORGANIZATION" dataType="VARCHAR" precision="18" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000007d-0bbb-0000-714b-e31d00000000" name="ORG_KEY" dataType="DOUBLE" precision="15" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000007e-0bbb-0000-714b-e31d00000000" name="SEQUENCE" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000922-0bbb-0000-714b-e31d00000000" name="AREA_NAME" dataType="VARCHAR" precision="25" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m000000e0-0bc0-0000-714b-e31d00000000" name="SAMP_OFFICES_D_Key">
+<RefColumns>
+<RefColumn refId="m000000e0-0bc0-0000-714b-e31d00000000-m0000007b-0bbb-0000-714b-e31d00000000" columnRef="/oracle/bi/server/base/PhysicalTable/0000006f-0bb9-0000-714b-e31d00000000.xml#m0000007b-0bbb-0000-714b-e31d00000000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

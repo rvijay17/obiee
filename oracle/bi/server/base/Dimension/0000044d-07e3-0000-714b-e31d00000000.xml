@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="m0000044d-07e3-0000-714b-e31d00000000" name="Products Hierararchy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/0000044d-07e3-0000-714b-e31d00000000.xml#m00000450-07e9-0000-714b-e31d00000000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/000001c5-07d0-0000-714b-e31d00000000.xml#m000001c5-07d0-0000-714b-e31d00000000">
+<LogicalLevel mdsid="m00000450-07e9-0000-714b-e31d00000000" name="Dim Products Total" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;Dim Products Total&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="m00000450-07e9-0000-714b-e31d00000000_m00000452-07e9-0000-714b-e31d00000000" logicalLevelRef="/oracle/bi/server/base/Dimension/0000044d-07e3-0000-714b-e31d00000000.xml#m00000452-07e9-0000-714b-e31d00000000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m00000450-07e9-0000-714b-e31d00000000-m0000055d-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m0000055d-07d6-0000-714b-e31d00000000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="m00000452-07e9-0000-714b-e31d00000000" name="Brand" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Brand&apos;">
+<LogicalKey mdsid="m0000045e-07d8-0000-714b-e31d00000000" name="Brand" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m0000045e-07d8-0000-714b-e31d00000000-m000001df-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001df-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m00000452-07e9-0000-714b-e31d00000000_m00000454-07e9-0000-714b-e31d00000000" logicalLevelRef="/oracle/bi/server/base/Dimension/0000044d-07e3-0000-714b-e31d00000000.xml#m00000454-07e9-0000-714b-e31d00000000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m00000452-07e9-0000-714b-e31d00000000-m000001df-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001df-07d6-0000-714b-e31d00000000"/>
+<RefLogicalColumn refId="m00000452-07e9-0000-714b-e31d00000000-m000001e0-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e0-07d6-0000-714b-e31d00000000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="m00000454-07e9-0000-714b-e31d00000000" name="Line Of Business" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Line Of Business&apos;">
+<LogicalKey mdsid="m00000460-07d8-0000-714b-e31d00000000" name="Lob" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m00000460-07d8-0000-714b-e31d00000000-m000001e1-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e1-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m00000454-07e9-0000-714b-e31d00000000_m0000045a-07e9-0000-714b-e31d00000000" logicalLevelRef="/oracle/bi/server/base/Dimension/0000044d-07e3-0000-714b-e31d00000000.xml#m0000045a-07e9-0000-714b-e31d00000000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m00000454-07e9-0000-714b-e31d00000000-m000001e1-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e1-07d6-0000-714b-e31d00000000"/>
+<RefLogicalColumn refId="m00000454-07e9-0000-714b-e31d00000000-m000001e2-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e2-07d6-0000-714b-e31d00000000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="m0000045a-07e9-0000-714b-e31d00000000" name="Products Type" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Products Type&apos;">
+<LogicalKey mdsid="m00000553-07d8-0000-714b-e31d00000000" name="Type" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m00000553-07d8-0000-714b-e31d00000000-m000001e6-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e6-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m0000045a-07e9-0000-714b-e31d00000000_m0000044e-07e9-0000-714b-e31d00000000" logicalLevelRef="/oracle/bi/server/base/Dimension/0000044d-07e3-0000-714b-e31d00000000.xml#m0000044e-07e9-0000-714b-e31d00000000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m0000045a-07e9-0000-714b-e31d00000000-m000001e6-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e6-07d6-0000-714b-e31d00000000"/>
+<RefLogicalColumn refId="m0000045a-07e9-0000-714b-e31d00000000-m000001e7-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e7-07d6-0000-714b-e31d00000000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="m0000044e-07e9-0000-714b-e31d00000000" name="Product Detail" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Product Detail&apos;">
+<LogicalKey mdsid="m0000044f-07d8-0000-714b-e31d00000000" name="Dim Products Detail_Key" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m0000044f-07d8-0000-714b-e31d00000000-m000001e3-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e3-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="m0000057c-07d8-0000-714b-e31d00000000" name="Dim Products Detail_Key1">
+<RefColumns>
+<RefLogicalColumn refId="m0000057c-07d8-0000-714b-e31d00000000-m000001e4-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e4-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<RefPreferredDrillDown>
+<RefLogicalLevel refId="m0000044e-07e9-0000-714b-e31d00000000-m0000065c-07e9-0000-714b-e31d00000000" logicalLevelRef="/oracle/bi/server/base/Dimension/000005c5-07e3-0000-714b-e31d00000000.xml#m0000065c-07e9-0000-714b-e31d00000000"/>
+</RefPreferredDrillDown>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m0000044e-07e9-0000-714b-e31d00000000-m000001e3-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e3-07d6-0000-714b-e31d00000000"/>
+<RefLogicalColumn refId="m0000044e-07e9-0000-714b-e31d00000000-m000001e4-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000001e4-07d6-0000-714b-e31d00000000"/>
+<RefLogicalColumn refId="m0000044e-07e9-0000-714b-e31d00000000-m000008fe-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c7-07f3-0000-714b-e31d00000000.xml#m000008fe-07d6-0000-714b-e31d00000000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

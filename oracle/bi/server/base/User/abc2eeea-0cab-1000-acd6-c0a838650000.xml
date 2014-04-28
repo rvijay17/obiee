@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<User mdsid="mabc2eeea-0cab-1000-acd6-c0a838650000" name="user2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" guid="1ED496E09B2911E3BFCC85CCD313FB7A">
+<Description><![CDATA[Group 2 user (user1234)]]></Description>
+<RefGroups>
+<RefGroup refId="mabc2eeea-0cab-1000-acd6-c0a838650000-m00000000-0000-0000-0000-000001010101" groupRef="/oracle/bi/server/base/Group/00000000-0000-0000-0000-000001010101.xml#m00000000-0000-0000-0000-000001010101"/>
+</RefGroups>
+</User>

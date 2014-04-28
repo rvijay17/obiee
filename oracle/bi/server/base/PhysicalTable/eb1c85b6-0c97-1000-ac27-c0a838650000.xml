@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="meb1c85b6-0c97-1000-ac27-c0a838650000" name="POP_POPULATION" iconIndex="68" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/0000006e-0bd3-0000-714b-e31d00000000.xml#m0000006e-0bd3-0000-714b-e31d00000000">
+<PhysicalColumn mdsid="meb1c85b7-0c97-1000-ac27-c0a838650000" name="CITY_ID" dataType="DOUBLE" precision="22" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="meb1c85b8-0c97-1000-ac27-c0a838650000" name="POPULATION" dataType="DOUBLE" precision="22" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="meb1c85b9-0c97-1000-ac27-c0a838650000" name="STATE_ID" dataType="DOUBLE" precision="22" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="meb1d21f0-0c97-1000-ac27-c0a838650000" name="CITY_ID" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/eb1c85b1-0c97-1000-ac27-c0a838650000.xml#meb1c85b5-0c97-1000-ac27-c0a838650000">
+<RefColumns>
+<RefColumn refId="meb1d21f0-0c97-1000-ac27-c0a838650000-meb1c85b7-0c97-1000-ac27-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/eb1c85b6-0c97-1000-ac27-c0a838650000.xml#meb1c85b7-0c97-1000-ac27-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="meb1d21f1-0c97-1000-ac27-c0a838650000" name="STATE_ID" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/eb1c85ba-0c97-1000-ac27-c0a838650000.xml#meb1c85bd-0c97-1000-ac27-c0a838650000">
+<RefColumns>
+<RefColumn refId="meb1d21f1-0c97-1000-ac27-c0a838650000-meb1c85b9-0c97-1000-ac27-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/eb1c85b6-0c97-1000-ac27-c0a838650000.xml#meb1c85b9-0c97-1000-ac27-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

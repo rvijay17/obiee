@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<User mdsid="m00000552-05dd-0000-714b-e31d00000000" name="weblogic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" guid="A6B50E00D42811E2BFB5F755E3DAFE1B" loggingLevel="2">
+<RefGroups>
+<RefGroup refId="m00000552-05dd-0000-714b-e31d00000000-m00000000-0000-0000-0000-000000000101" groupRef="/oracle/bi/server/base/Group/00000000-0000-0000-0000-000000000101.xml#m00000000-0000-0000-0000-000000000101"/>
+<RefGroup refId="m00000552-05dd-0000-714b-e31d00000000-m00000000-0000-0000-0000-000000010101" groupRef="/oracle/bi/server/base/Group/00000000-0000-0000-0000-000000010101.xml#m00000000-0000-0000-0000-000000010101"/>
+<RefGroup refId="m00000552-05dd-0000-714b-e31d00000000-m00000000-0000-0000-0000-000001010101" groupRef="/oracle/bi/server/base/Group/00000000-0000-0000-0000-000001010101.xml#m00000000-0000-0000-0000-000001010101"/>
+</RefGroups>
+</User>

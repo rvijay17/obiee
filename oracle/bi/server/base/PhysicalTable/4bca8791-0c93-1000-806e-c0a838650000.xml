@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m4bca8791-0c93-1000-806e-c0a838650000" name="SAMP_REVENUE_A_MTH" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="36.0" lastUpdated="2013-10-25 15:59:48" maxConn="0" containerRef="/oracle/bi/server/base/Schema/0000006e-0bd3-0000-714b-e31d00000000.xml#m0000006e-0bd3-0000-714b-e31d00000000">
+<PhysicalColumn mdsid="m4bca8792-0c93-1000-806e-c0a838650000" name="BILL_MTH_KEY" dataType="DOUBLE" precision="22" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4bca8793-0c93-1000-806e-c0a838650000" name="DISCNT_VALUE" dataType="DOUBLE" precision="22" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4bca8794-0c93-1000-806e-c0a838650000" name="REVENUE" dataType="DOUBLE" precision="22" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4bca8795-0c93-1000-806e-c0a838650000" name="UNITS" dataType="DOUBLE" precision="22" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="m4be53b80-0c93-1000-806e-c0a838650000" name="SAMP_REVENUE_A_MTH_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000075-0bb9-0000-714b-e31d00000000.xml#m000000d7-0bc0-0000-714b-e31d00000000">
+<RefColumns>
+<RefColumn refId="m4be53b80-0c93-1000-806e-c0a838650000-m4bca8792-0c93-1000-806e-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/4bca8791-0c93-1000-806e-c0a838650000.xml#m4bca8792-0c93-1000-806e-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

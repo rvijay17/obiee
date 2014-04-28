@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m000008ac-0bd9-0000-714b-e31d00000000" name="initBlockPrefCurrency" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" connectionPoolRef="/oracle/bi/server/base/ConnectionPool/8b5286c0-0c92-1000-806e-c0a838650000.xml#m8b5286c0-0c92-1000-806e-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select 'VALUEOF(NQ_SESSION.PREFERED_CURRENCY)' from dual]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m000008ac-0bd9-0000-714b-e31d00000000-m000008ab-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/000008ab-0bd7-0000-714b-e31d00000000.xml#m000008ab-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select 'VALUEOF(NQ_SESSION.PREFERED_CURRENCY)' from dual]]></InitString>
+</InitBlock>

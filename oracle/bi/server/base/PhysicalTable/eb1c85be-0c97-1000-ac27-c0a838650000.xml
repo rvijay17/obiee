@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="meb1c85be-0c97-1000-ac27-c0a838650000" name="POPULATION_DATA" iconIndex="68" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/0000006e-0bd3-0000-714b-e31d00000000.xml#m0000006e-0bd3-0000-714b-e31d00000000">
+<PhysicalColumn mdsid="meb1c85bf-0c97-1000-ac27-c0a838650000" name="CITY" dataType="VARCHAR" precision="100" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="meb1c85c0-0c97-1000-ac27-c0a838650000" name="ID" dataType="DOUBLE" precision="22" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="meb1c85c1-0c97-1000-ac27-c0a838650000" name="POPULATION" dataType="DOUBLE" precision="22" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="meb1c85c2-0c97-1000-ac27-c0a838650000" name="STATE" dataType="VARCHAR" precision="100" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="meb1c85c3-0c97-1000-ac27-c0a838650000" name="ID">
+<RefColumns>
+<RefColumn refId="meb1c85c3-0c97-1000-ac27-c0a838650000-meb1c85c0-0c97-1000-ac27-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/eb1c85be-0c97-1000-ac27-c0a838650000.xml#meb1c85c0-0c97-1000-ac27-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

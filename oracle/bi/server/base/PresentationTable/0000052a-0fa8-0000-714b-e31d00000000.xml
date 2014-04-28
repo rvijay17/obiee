@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m0000052a-0fa8-0000-714b-e31d00000000" name="Fact Target" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000525-0fa4-0000-714b-e31d00000000.xml#m00000525-0fa4-0000-714b-e31d00000000">
+<PresentationColumn mdsid="m000004ee-0faa-0000-714b-e31d00000000" name="Bill Mth Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001ca-07f3-0000-714b-e31d00000000.xml#m000001f8-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004ef-0faa-0000-714b-e31d00000000" name="Office Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001ca-07f3-0000-714b-e31d00000000.xml#m000001f9-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004f0-0faa-0000-714b-e31d00000000" name="Prod Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001ca-07f3-0000-714b-e31d00000000.xml#m000001fa-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004f1-0faa-0000-714b-e31d00000000" name="Revenue" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001ca-07f3-0000-714b-e31d00000000.xml#m000001fb-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004f2-0faa-0000-714b-e31d00000000" name="Units" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001ca-07f3-0000-714b-e31d00000000.xml#m000001fc-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+</PresentationTable>

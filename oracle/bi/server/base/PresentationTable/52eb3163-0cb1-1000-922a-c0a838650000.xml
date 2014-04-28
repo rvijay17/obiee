@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m52eb3163-0cb1-1000-922a-c0a838650000" name="US_CRIME_YEAR_2K_ONWARDS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/52eb3161-0cb1-1000-922a-c0a838650000.xml#m52eb3161-0cb1-1000-922a-c0a838650000">
+<PresentationColumn mdsid="m52eb3160-0cb1-1000-922a-c0a838650000" name="Year" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/52e0f830-0cb1-1000-922a-c0a838650000.xml#m52e0f833-0cb1-1000-922a-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000529-0fa8-0000-714b-e31d00000000" name="Fact Revenue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000525-0fa4-0000-714b-e31d00000000.xml#m00000525-0fa4-0000-714b-e31d00000000">
+<PresentationColumn mdsid="m000004e3-0faa-0000-714b-e31d00000000" name="Bill Day Dt" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m000001ed-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004e4-0faa-0000-714b-e31d00000000" name="Bill Mth Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m000001ee-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004e5-0faa-0000-714b-e31d00000000" name="Discnt Value" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m000001ef-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004e6-0faa-0000-714b-e31d00000000" name="Office Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m000001f0-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004e7-0faa-0000-714b-e31d00000000" name="Order Day Dt" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m000001f1-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004e8-0faa-0000-714b-e31d00000000" name="Order Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m000001f2-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004e9-0faa-0000-714b-e31d00000000" name="Order Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m000001f3-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004ea-0faa-0000-714b-e31d00000000" name="Order Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m000001f4-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004eb-0faa-0000-714b-e31d00000000" name="Prod Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m000001f5-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004ec-0faa-0000-714b-e31d00000000" name="Revenue" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m000001f6-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004ed-0faa-0000-714b-e31d00000000" name="Units" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m000001f7-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000057b-0faa-0000-714b-e31d00000000" name="All Products Revenue" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m0000055d-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000865-0faa-0000-714b-e31d00000000" name="All Months Revenue" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m00000693-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000008b5-0faa-0000-714b-e31d00000000" name="Preferred Currency" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m000008b2-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000920-0faa-0000-714b-e31d00000000" name="Preserve" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c9-07f3-0000-714b-e31d00000000.xml#m00000917-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+</PresentationTable>

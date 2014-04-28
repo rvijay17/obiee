@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m52e0f820-0cb1-1000-922a-c0a838650000" name="US_CRIME_BY_STATE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/595a8f70-0cae-1000-b478-c0a838650000.xml#m595a8f70-0cae-1000-b478-c0a838650000">
+<LogicalColumn mdsid="m52e0f823-0cb1-1000-922a-c0a838650000" name="CRIME" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m52e0f824-0cb1-1000-922a-c0a838650000" name="CRIME_COUNT" isWriteable="false">
+<MeasureDefn mdsid="m52e20990-0cb1-1000-922a-c0a838650000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m52e20991-0cb1-1000-922a-c0a838650000" name="AggRule_2050:28381395573933" isDefault="true">
+<Expr mdsid="m00000001-01f4-0000-a7fd-f4c900000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("Densification - US Crime By State"."US_CRIME_BY_STATE"."CRIME_COUNT")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-a7fd-f4c900000000-m52e0f824-0cb1-1000-922a-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f824-0cb1-1000-922a-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m52e0f825-0cb1-1000-922a-c0a838650000" name="STATE" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m52e0f826-0cb1-1000-922a-c0a838650000" name="STATE_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m52e0f827-0cb1-1000-922a-c0a838650000" name="TYPE_OF_CRIME" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m52e0f828-0cb1-1000-922a-c0a838650000" name="YEAR_NUM" isWriteable="false">
+</LogicalColumn>
+<LogicalKey mdsid="m52e0f829-0cb1-1000-922a-c0a838650000" name="PK_US_CRIME_BY_STATE" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m52e0f829-0cb1-1000-922a-c0a838650000-m52e0f823-0cb1-1000-922a-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f823-0cb1-1000-922a-c0a838650000"/>
+<RefLogicalColumn refId="m52e0f829-0cb1-1000-922a-c0a838650000-m52e0f827-0cb1-1000-922a-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f827-0cb1-1000-922a-c0a838650000"/>
+<RefLogicalColumn refId="m52e0f829-0cb1-1000-922a-c0a838650000-m52e0f828-0cb1-1000-922a-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f828-0cb1-1000-922a-c0a838650000"/>
+<RefLogicalColumn refId="m52e0f829-0cb1-1000-922a-c0a838650000-m52e0f826-0cb1-1000-922a-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f826-0cb1-1000-922a-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m52e0f820-0cb1-1000-922a-c0a838650000-m52e0f822-0cb1-1000-922a-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/52e0f822-0cb1-1000-922a-c0a838650000.xml#m52e0f822-0cb1-1000-922a-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

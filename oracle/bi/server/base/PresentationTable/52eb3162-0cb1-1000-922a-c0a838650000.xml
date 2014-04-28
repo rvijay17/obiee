@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m52eb3162-0cb1-1000-922a-c0a838650000" name="US_CRIME_BY_STATE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/52eb3161-0cb1-1000-922a-c0a838650000.xml#m52eb3161-0cb1-1000-922a-c0a838650000">
+<PresentationColumn mdsid="m52eb315a-0cb1-1000-922a-c0a838650000" name="CRIME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f823-0cb1-1000-922a-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m52eb315b-0cb1-1000-922a-c0a838650000" name="CRIME_COUNT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f824-0cb1-1000-922a-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m52eb315c-0cb1-1000-922a-c0a838650000" name="STATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f825-0cb1-1000-922a-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m52eb315d-0cb1-1000-922a-c0a838650000" name="STATE_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f826-0cb1-1000-922a-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m52eb315e-0cb1-1000-922a-c0a838650000" name="TYPE_OF_CRIME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f827-0cb1-1000-922a-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m52eb315f-0cb1-1000-922a-c0a838650000" name="YEAR_NUM" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/52e0f820-0cb1-1000-922a-c0a838650000.xml#m52e0f828-0cb1-1000-922a-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

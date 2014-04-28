@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m00000075-0bb9-0000-714b-e31d00000000" name="SAMP_TIME_MTH_D" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/0000006e-0bd3-0000-714b-e31d00000000.xml#m0000006e-0bd3-0000-714b-e31d00000000">
+<PhysicalColumn mdsid="m000000ad-0bbb-0000-714b-e31d00000000" name="BEG_OF_QTR_WID" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000ae-0bbb-0000-714b-e31d00000000" name="CAL_HALF" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000af-0bbb-0000-714b-e31d00000000" name="CAL_HALF_YEAR_END_DATE" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000b0-0bbb-0000-714b-e31d00000000" name="CAL_MONTH" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000b1-0bbb-0000-714b-e31d00000000" name="CAL_MONTH_END_DATE" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000b2-0bbb-0000-714b-e31d00000000" name="CAL_QTR" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000b3-0bbb-0000-714b-e31d00000000" name="CAL_QTR_END_DATE" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000b4-0bbb-0000-714b-e31d00000000" name="CAL_YEAR" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000b5-0bbb-0000-714b-e31d00000000" name="CAL_YEAR_END_DATE" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000b6-0bbb-0000-714b-e31d00000000" name="DAYS_IN_FSCL_HALF_YEAR" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000b7-0bbb-0000-714b-e31d00000000" name="DAYS_IN_FSCL_MONTH" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000b8-0bbb-0000-714b-e31d00000000" name="DAYS_IN_FSCL_QTR" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000b9-0bbb-0000-714b-e31d00000000" name="DAYS_IN_FSCL_YEAR" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000ba-0bbb-0000-714b-e31d00000000" name="DAYS_IN_HALF_YEAR" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000bb-0bbb-0000-714b-e31d00000000" name="DAYS_IN_MTH" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000bc-0bbb-0000-714b-e31d00000000" name="DAYS_IN_QTR" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000bd-0bbb-0000-714b-e31d00000000" name="DAYS_IN_YEAR" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000be-0bbb-0000-714b-e31d00000000" name="FSCL_HALF" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000bf-0bbb-0000-714b-e31d00000000" name="FSCL_HALF_YEAR_END_DATE" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000c0-0bbb-0000-714b-e31d00000000" name="FSCL_MONTH" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000c1-0bbb-0000-714b-e31d00000000" name="FSCL_MONTH_END_DATE" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000c2-0bbb-0000-714b-e31d00000000" name="FSCL_QTR" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000c3-0bbb-0000-714b-e31d00000000" name="FSCL_QTR_END_DATE" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000c4-0bbb-0000-714b-e31d00000000" name="FSCL_YEAR" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000c5-0bbb-0000-714b-e31d00000000" name="FSCL_YEAR_END_DATE" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000c6-0bbb-0000-714b-e31d00000000" name="JULIAN_MONTH_NUM" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000c7-0bbb-0000-714b-e31d00000000" name="JULIAN_QTR_NUM" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000c8-0bbb-0000-714b-e31d00000000" name="LOADED" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000c9-0bbb-0000-714b-e31d00000000" name="MONTH_AGO_WID" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000ca-0bbb-0000-714b-e31d00000000" name="MTH_KEY" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000cb-0bbb-0000-714b-e31d00000000" name="PER_NAME_HALF" dataType="VARCHAR" precision="8" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000cc-0bbb-0000-714b-e31d00000000" name="PER_NAME_MONTH" dataType="VARCHAR" precision="9" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000cd-0bbb-0000-714b-e31d00000000" name="PER_NAME_QTR" dataType="VARCHAR" precision="7" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000ce-0bbb-0000-714b-e31d00000000" name="PER_NAME_YEAR" dataType="VARCHAR" precision="4" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000cf-0bbb-0000-714b-e31d00000000" name="QUARTER_AGO_WID" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m000000d0-0bbb-0000-714b-e31d00000000" name="YEAR_AGO_WID" dataType="DOUBLE" precision="15" nullable="true" extName="samplesales" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m000000d7-0bc0-0000-714b-e31d00000000" name="SAMP_TIME_MTH_D_Key">
+<RefColumns>
+<RefColumn refId="m000000d7-0bc0-0000-714b-e31d00000000-m000000ca-0bbb-0000-714b-e31d00000000" columnRef="/oracle/bi/server/base/PhysicalTable/00000075-0bb9-0000-714b-e31d00000000.xml#m000000ca-0bbb-0000-714b-e31d00000000"/>
+</RefColumns>
+</PhysicalKey>
+<PhysicalKey mdsid="m52131c70-0c93-1000-8029-c0a838650000" name="SAMP_TIME_MTH_D_Key#1">
+<RefColumns>
+<RefColumn refId="m52131c70-0c93-1000-8029-c0a838650000-m000000b4-0bbb-0000-714b-e31d00000000" columnRef="/oracle/bi/server/base/PhysicalTable/00000075-0bb9-0000-714b-e31d00000000.xml#m000000b4-0bbb-0000-714b-e31d00000000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

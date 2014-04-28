@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="mec9dce80-0c97-1000-ac27-c0a838650000" name="RegionDim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/ec9dce80-0c97-1000-ac27-c0a838650000.xml#meca06690-0c97-1000-ac27-c0a838650000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/eb244de0-0c97-1000-ac27-c0a838650000.xml#meb244de0-0c97-1000-ac27-c0a838650000">
+<LogicalLevel mdsid="meca06690-0c97-1000-ac27-c0a838650000" name="Grand Total" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;Grand Total&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="meca06690-0c97-1000-ac27-c0a838650000_meca45e30-0c97-1000-ac27-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/ec9dce80-0c97-1000-ac27-c0a838650000.xml#meca45e30-0c97-1000-ac27-c0a838650000"/>
+</RefChildLevels>
+</LogicalLevel>
+<LogicalLevel mdsid="meca45e30-0c97-1000-ac27-c0a838650000" name="State" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;State&apos;">
+<LogicalKey mdsid="mecafa8d0-0c97-1000-ac27-c0a838650000" name="State ID" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mecafa8d0-0c97-1000-ac27-c0a838650000-meb273429-0c97-1000-ac27-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meb273429-0c97-1000-ac27-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="mecb415a0-0c97-1000-ac27-c0a838650000" name="STATE" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="mecb415a0-0c97-1000-ac27-c0a838650000-meb27342a-0c97-1000-ac27-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meb27342a-0c97-1000-ac27-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="meca45e30-0c97-1000-ac27-c0a838650000_mecb5c350-0c97-1000-ac27-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/ec9dce80-0c97-1000-ac27-c0a838650000.xml#mecb5c350-0c97-1000-ac27-c0a838650000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="meca45e30-0c97-1000-ac27-c0a838650000-meb273429-0c97-1000-ac27-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meb273429-0c97-1000-ac27-c0a838650000"/>
+<RefLogicalColumn refId="meca45e30-0c97-1000-ac27-c0a838650000-meb27342a-0c97-1000-ac27-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meb27342a-0c97-1000-ac27-c0a838650000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="mecb5c350-0c97-1000-ac27-c0a838650000" name="City" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;City&apos;">
+<LogicalKey mdsid="mecbd3d60-0c97-1000-ac27-c0a838650000" name="CITY" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="mecbd3d60-0c97-1000-ac27-c0a838650000-meb4c4843-0c97-1000-ac27-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meb4c4843-0c97-1000-ac27-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="mecbe27c0-0c97-1000-ac27-c0a838650000" name="City ID">
+<RefColumns>
+<RefLogicalColumn refId="mecbe27c0-0c97-1000-ac27-c0a838650000-meca91922-0c97-1000-ac27-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meca91922-0c97-1000-ac27-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="mecb5c350-0c97-1000-ac27-c0a838650000-meb27341e-0c97-1000-ac27-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/eb27341a-0c97-1000-ac27-c0a838650000.xml#meb27341e-0c97-1000-ac27-c0a838650000"/>
+<RefLogicalColumn refId="mecb5c350-0c97-1000-ac27-c0a838650000-meb4c4843-0c97-1000-ac27-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meb4c4843-0c97-1000-ac27-c0a838650000"/>
+<RefLogicalColumn refId="mecb5c350-0c97-1000-ac27-c0a838650000-meca91922-0c97-1000-ac27-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/eb273426-0c97-1000-ac27-c0a838650000.xml#meca91922-0c97-1000-ac27-c0a838650000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

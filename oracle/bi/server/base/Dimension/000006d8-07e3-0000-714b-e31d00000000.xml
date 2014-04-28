@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="m000006d8-07e3-0000-714b-e31d00000000" name="Office Hierarchy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/000006d8-07e3-0000-714b-e31d00000000.xml#m000006db-07e9-0000-714b-e31d00000000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/000001c5-07d0-0000-714b-e31d00000000.xml#m000001c5-07d0-0000-714b-e31d00000000">
+<LogicalLevel mdsid="m000006db-07e9-0000-714b-e31d00000000" name="Dim Offices Total" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;Dim Offices Total&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="m000006db-07e9-0000-714b-e31d00000000_m000006dc-07e9-0000-714b-e31d00000000" logicalLevelRef="/oracle/bi/server/base/Dimension/000006d8-07e3-0000-714b-e31d00000000.xml#m000006dc-07e9-0000-714b-e31d00000000"/>
+</RefChildLevels>
+</LogicalLevel>
+<LogicalLevel mdsid="m000006dc-07e9-0000-714b-e31d00000000" name="Company" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Company&apos;">
+<LogicalKey mdsid="m000006e0-07d8-0000-714b-e31d00000000" name="Company" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m000006e0-07d8-0000-714b-e31d00000000-m000001d4-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d4-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="m000006e1-07d8-0000-714b-e31d00000000" name="Company Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m000006e1-07d8-0000-714b-e31d00000000-m000001d5-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d5-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m000006dc-07e9-0000-714b-e31d00000000_m000006dd-07e9-0000-714b-e31d00000000" logicalLevelRef="/oracle/bi/server/base/Dimension/000006d8-07e3-0000-714b-e31d00000000.xml#m000006dd-07e9-0000-714b-e31d00000000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m000006dc-07e9-0000-714b-e31d00000000-m000001d4-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d4-07d6-0000-714b-e31d00000000"/>
+<RefLogicalColumn refId="m000006dc-07e9-0000-714b-e31d00000000-m000001d5-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d5-07d6-0000-714b-e31d00000000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="m000006dd-07e9-0000-714b-e31d00000000" name="Organization" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Organization&apos;">
+<LogicalKey mdsid="m000006e2-07d8-0000-714b-e31d00000000" name="Org Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m000006e2-07d8-0000-714b-e31d00000000-m000001da-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001da-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="m000006e3-07d8-0000-714b-e31d00000000" name="Organization" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m000006e3-07d8-0000-714b-e31d00000000-m000001db-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001db-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m000006dd-07e9-0000-714b-e31d00000000_m000006de-07e9-0000-714b-e31d00000000" logicalLevelRef="/oracle/bi/server/base/Dimension/000006d8-07e3-0000-714b-e31d00000000.xml#m000006de-07e9-0000-714b-e31d00000000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m000006dd-07e9-0000-714b-e31d00000000-m000001da-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001da-07d6-0000-714b-e31d00000000"/>
+<RefLogicalColumn refId="m000006dd-07e9-0000-714b-e31d00000000-m000001db-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001db-07d6-0000-714b-e31d00000000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="m000006de-07e9-0000-714b-e31d00000000" name="Department" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Department&apos;">
+<LogicalKey mdsid="m000006e4-07d8-0000-714b-e31d00000000" name="Department" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m000006e4-07d8-0000-714b-e31d00000000-m000001d6-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d6-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="m000006e5-07d8-0000-714b-e31d00000000" name="Dept Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m000006e5-07d8-0000-714b-e31d00000000-m000001d7-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d7-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m000006de-07e9-0000-714b-e31d00000000_m000006df-07e9-0000-714b-e31d00000000" logicalLevelRef="/oracle/bi/server/base/Dimension/000006d8-07e3-0000-714b-e31d00000000.xml#m000006df-07e9-0000-714b-e31d00000000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m000006de-07e9-0000-714b-e31d00000000-m000001d6-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d6-07d6-0000-714b-e31d00000000"/>
+<RefLogicalColumn refId="m000006de-07e9-0000-714b-e31d00000000-m000001d7-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d7-07d6-0000-714b-e31d00000000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="m000006df-07e9-0000-714b-e31d00000000" name="Office Detail" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Office Detail&apos;">
+<LogicalKey mdsid="m000006e6-07d8-0000-714b-e31d00000000" name="Office Dsc" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m000006e6-07d8-0000-714b-e31d00000000-m000001d8-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d8-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="m000006e7-07d8-0000-714b-e31d00000000" name="Office Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m000006e7-07d8-0000-714b-e31d00000000-m000001d9-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d9-07d6-0000-714b-e31d00000000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m000006df-07e9-0000-714b-e31d00000000-m000001d8-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d8-07d6-0000-714b-e31d00000000"/>
+<RefLogicalColumn refId="m000006df-07e9-0000-714b-e31d00000000-m000001d9-07d6-0000-714b-e31d00000000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d9-07d6-0000-714b-e31d00000000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

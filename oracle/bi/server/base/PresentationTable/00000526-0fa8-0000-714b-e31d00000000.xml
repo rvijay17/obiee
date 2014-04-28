@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000526-0fa8-0000-714b-e31d00000000" name="Dim Offices" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000525-0fa4-0000-714b-e31d00000000.xml#m00000525-0fa4-0000-714b-e31d00000000">
+<PresentationColumn mdsid="m000004ca-0faa-0000-714b-e31d00000000" name="Company" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d4-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004cb-0faa-0000-714b-e31d00000000" name="Company Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d5-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004cc-0faa-0000-714b-e31d00000000" name="Department" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d6-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004cd-0faa-0000-714b-e31d00000000" name="Dept Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d7-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004ce-0faa-0000-714b-e31d00000000" name="Office Dsc" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d8-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004cf-0faa-0000-714b-e31d00000000" name="Office Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001d9-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004d0-0faa-0000-714b-e31d00000000" name="Org Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001da-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000004d1-0faa-0000-714b-e31d00000000" name="Organization" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m000001db-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000928-0faa-0000-714b-e31d00000000" name="Area Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/000001c6-07f3-0000-714b-e31d00000000.xml#m00000925-07d6-0000-714b-e31d00000000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m00000526-0fa8-0000-714b-e31d00000000-m000006ee-0fbc-0000-714b-e31d00000000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/000006ee-0fbc-0000-714b-e31d00000000.xml#m000006ee-0fbc-0000-714b-e31d00000000"/>
+</RefHierarchies>
+</PresentationTable>
